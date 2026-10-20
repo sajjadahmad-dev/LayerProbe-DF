@@ -1,0 +1,7 @@
+Dataset,Method,EER,AUC,Acc
+A (in-domain),Last layer + LR,0.08,0.9725,0.915
+A (in-domain),Best layer (4) + LR,0.015,0.9972,0.99
+A (in-domain),LayerAgg (ours),0.005,0.9993,0.995
+B (cross-dataset),Last layer + LR,0.175,0.9054,0.635
+B (cross-dataset),Best layer (4) + LR,0.205,0.8766,0.55
+B (cross-dataset),LayerAgg (ours),0.135,0.948,0.7125
